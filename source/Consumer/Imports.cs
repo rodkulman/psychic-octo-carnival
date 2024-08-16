@@ -58,7 +58,7 @@ namespace Consumer
 
     public static partial class Program
     {
-        private const string DLLPath = @"C:\Users\rodku\Source\psychic-octo-carnival\x64\Debug\Exporter.dll";
+        private const string DLLPath = "Exporter.dll";
 
         [DllImport(DLLPath, CallingConvention = CallingConvention.StdCall)]
         public static extern int Add(int a, int b);
